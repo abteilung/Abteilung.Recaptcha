@@ -1,5 +1,5 @@
 {
-    "name": "wegmeister/recaptcha",
+    "name": "abteilung/recaptcha",
     "type": "neos-package",
     "license": "GPL-3.0-or-later",
     "description": "Form Element for the Flow Form Framework integrating Google's Recaptcha",
@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Wegmeister\\Recaptcha\\": "Classes"
+            "Abteilung\\Recaptcha\\": "Classes"
         }
     },
     "suggest": {
@@ -18,7 +18,7 @@
     },
     "extra": {
         "neos": {
-            "package-key": "Wegmeister.Recaptcha",
+            "package-key": "Abteilung.Recaptcha",
             "loading-order": {
               "after": [
                 "neos/form-builder"
